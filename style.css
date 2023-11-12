@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.header {
+    color: aliceblue;
+}
+
+.left {
+
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+    top: 40px;
+    font-size: small;
+    font-family: inherit;
+    color: white;
+
+}
+
+.left img {
+    width: 70px;
+}
+
+.mid {
+    display: block;
+    margin: 40px auto;
+    width: 40%;
+
+}
+
+.right {
+    position: absolute;
+    right: 25px;
+    top: 40px;
+    display: inline-block;
+    color: rgb(250, 13, 13);
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: medium;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 34px 23px;
+    font-family: fantasy;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: red;
+}
+
+.btn {
+    margin: 6px;
+    background-color: white;
+    color: #822084;
+    padding: 2px 9px;
+    border-radius: 9px;
+    border: 2px solid rgb(115, 50, 50);
+    font-family: fantasy;
+    cursor: pointer;
+}
+
+.container{
+    /* border: 2px solid white; */
+    margin: 183px 700px;
+    padding: 33px 45px;
+    width: 22%;
+    color: aliceblue;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.form-group input {
+    font-family: fantasy;
+    text-align: center;
+    display: block;
+    margin: 6px auto;
+    padding: 2px;
+    width: 277px;
+}
+.navbar {
+    display: inline-block;
+}
+
+body {
+margin: 0px;
+padding: 0px;
+background: url(img);
+}
